@@ -2,7 +2,7 @@
 
 int main() {
 
-    char Estado; //declarando as variáveis da Carta 1
+    char Estado;//declarando as variáveis da Carta 1
     char Codigo[4];
     char Cidade[20];
     unsigned long int Populacao;
