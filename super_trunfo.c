@@ -162,5 +162,39 @@ int main() {
     printf(" \n");
     printf(" \n");
 
+    printf ("===*** Agora o resultado usando os operadores relacionais ***===");
+    printf(" \n");
+    printf(" \n");
+
+    if (Populacao > Populacao2) {//aqui eu estou testando o uso de operdores relacionais if else
+        printf ("A carta 1 tem população mais elevada que a carta 2. Carta 1 venceu!. \n");}
+
+    else {printf ("A carta 2 tem população mais elevada que a carta 1. Carta 2 venceu! \n");}
+
+    
+    if (Area > Area2) {//aqui eu estou testando o uso de operdores relacionais if else
+        printf ("A carta 1 tem área mais elevada que a carta 2. Carta 1 venceu!. \n");}
+        
+    else {printf ("A carta 2 tem área mais elevada que a carta 1. Carta 2 venceu! \n");}
+
+    if (PIB > PIB2) {//aqui eu estou testando o uso de operdores relacionais if else
+        printf ("A carta 1 tem PIB mais elevado que a carta 2. Carta 1 venceu!. \n");}
+
+    else {printf ("A carta 2 tem PIB mais elevada que a carta 1. Carta 2 venceu! \n");}
+
+    if (PontosTur > PontosTur2) {//aqui eu estou testando o uso de operdores relacionais if else
+        printf ("A carta 1 tem mais pontos turísticos que a carta 2. Carta 1 venceu!. \n");}
+
+    else {printf ("A carta 2 tem mais pontos turísticos que a carta 1. Carta 2 venceu! \n");}
+
+    printf(" \n");
+    printf(" \n");//marcadores para melhorar a formatação de apresentaçao dos dados
+    printf(" ----------------------------------------------------------------------------------------------------- \n");
+    printf(" \n");
+    printf(" \n");
+
+    
     return 0;
+    
 }
+   
